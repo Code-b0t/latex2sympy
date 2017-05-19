@@ -513,6 +513,7 @@ def test_sympy():
     print process_sympy("\\int_{5x}^{2} x^2 dx")
     print process_sympy("\\int x^2 dx")
     print process_sympy("2 4 5 - 2 3 1")
+    print process_sympy("\\left x + 1 \\right *x")
 
 if __name__ == "__main__":
     test_sympy()
